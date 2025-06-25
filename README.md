@@ -1,5 +1,5 @@
 # my_exp_trainingTRCS201 by Krish Mankoo
-## My experience in 3rd semester training at GNDEC ludhiana
+## In this repositry I will share my Experience in 3rd semester training at GNDEC ludhiana
 ## DAY 1:
 ### Orientation
 The day started with our introduction to our core department - Computer Science and Engineering. Dr Priyanka introduced us with our department and Dr Kiran Jyoti(HOD CSE department) gave us a brief overview about our syllabus scheme.After that we were escorted to our respective labs.
