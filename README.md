@@ -1,4 +1,4 @@
-# my_exp_trainingTRCS201 by Krish Mankoo
+# My Experience in Summer Training by Krish Mankoo
 ## In this repositry I will share my Experience in 3rd semester training at GNDEC ludhiana
 ## DAY 1:
 ### Orientation
