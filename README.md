@@ -56,7 +56,7 @@ The most fun part of today was learning commands in Linux.We learned a lot of ba
 
   The screenshots of the commands I practiced are below.
 
-  ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115048.png)
+  ![Image]([file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115048.png](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-26%20115048.png?raw=true))
   ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115131.png)
   ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115152.png)
 
