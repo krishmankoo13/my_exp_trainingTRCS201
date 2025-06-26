@@ -30,7 +30,7 @@ The Linux file system is structured hierarchically, starting from a root directo
 ## Commands in Linux
 The most fun part of today was learning commands in Linux.We learned a lot of basic commands today and had hand's on practice too.Multiple errors also occured but solving them was fun and challenging too.
 ### Types of Command
-whoami: Returns the current domain and user name.
+- 'whoami'- Returns the current domain and user name.
 date: Returns current date.
 ls (list): Returns content of a specified Directory
 cd: Changes directory.
