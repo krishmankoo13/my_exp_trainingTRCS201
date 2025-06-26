@@ -57,5 +57,6 @@ The most fun part of today was learning commands in Linux.We learned a lot of ba
   The screenshots of the commands I practiced are below.
 
 ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-26%20115048.png?raw=true)
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-26%20115131.png?raw=true)
 
 
