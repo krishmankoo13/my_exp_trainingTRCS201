@@ -12,7 +12,9 @@ It really motivated and inspired me alot and I was more curious about the upcomi
 
 ## DAY2:
  Our day started today at 8:30 a.m with a positive mindset and a desire to learn something new.
-                *“The future belongs to those who prepare for it today.”*
+ 
+     *“The future belongs to those who prepare for it today.”*
+                
 With this thought, we stepped into our labs, ready to absorb and explore the tech world further.
 ### Kernal and Shell
 We were introduced to the core components of the Linux operating system — the Kernel and the Shell.
