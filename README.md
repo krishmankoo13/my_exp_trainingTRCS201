@@ -54,4 +54,10 @@ The most fun part of today was learning commands in Linux.We learned a lot of ba
 
 - whatis- Gives short description of a command.
 
+  The screenshots of the commands I practiced are below.
+
+  ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115048.png)
+  ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115131.png)
+  ![Image](file:///C:/Users/Krish%20Mankoo/OneDrive/Pictures/Screenshots/Screenshot%202025-06-26%20115152.png)
+
 
