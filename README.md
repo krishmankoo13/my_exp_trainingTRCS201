@@ -32,26 +32,26 @@ The most fun part of today was learning commands in Linux.We learned a lot of ba
 ### Types of Command
 - whoami- Returns the current domain and user name.
   
--date: Returns current date.
+-date- Returns current date.
 
--ls (list): Returns content of a specified Directory
+-ls (list)- Returns content of a specified Directory
 
--cd: Changes directory.
+-cd- Changes directory.
 
--mkdir: Creates a new directory.
+-mkdir- Creates a new directory.
 
--pwd: Prints the current working directory.
+-pwd- Prints the current working directory.
 
--touch: Creates empty file.
+-touch- Creates empty file.
 
--cat: Creates file with content.
+-cat- Creates file with content.
 
--whereis: Finds the location of specified file.
+-whereis- Finds the location of specified file.
 
--cp: To copy content of a file to the other.
+-cp- To copy content of a file to the other.
 
--mv: To move or rename a file.
+-mv- To move or rename a file.
 
--whatis: Gives short description of a command.
+-whatis- Gives short description of a command.
 
 
