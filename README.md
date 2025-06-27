@@ -19,7 +19,7 @@ We were introduced to the core components of the Linux operating system — the 
 
 The Kernel is the heart of the operating system. It directly interacts with the hardware and manages system resources like CPU, memory, and devices. It ensures that each process and application gets the required time and resources to function properly.
 
-The Shell is the interface between the user and the kernel. It interprets the commands we type and communicates them to the kernel.There are four types of shell-Bash,Sh,Zsh and Fish.Butin this training session we used Bash shell.Also there are two types of categories- Command Line Shells and Graphical Shells
+The Shell is the interface between the user and the kernel. It interprets the commands we type and communicates them to the kernel.There are four types of shell-Bash,Sh,Zsh and Fish.But in this training session we used Bash shell.Also there are two types of categories- Command Line Shells and Graphical Shells
 
 ![Image](https://www.emblogic.com/blog/wp-content/uploads/2020/02/Shell-figure.png)
 
