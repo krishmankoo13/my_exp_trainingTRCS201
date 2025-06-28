@@ -26,11 +26,11 @@ The Shell is the interface between the user and the kernel. It interprets the co
 
 ![Image](https://www.emblogic.com/blog/wp-content/uploads/2020/02/Shell-figure.png)
 
-## File System Structures
+### File System Structures
 The Linux file system is structured hierarchically, starting from a root directory denoted by /. 
 ![Image](https://media.geeksforgeeks.org/wp-content/uploads/20230516105759/151.webp)
 
-## Commands in Linux
+### Commands in Linux
 The most fun part of today was learning commands in Linux.We learned a lot of basic commands today and had hand's on practice too.Multiple errors also occured but solving them was fun and challenging too.
 ### Types of Command
 - whoami- Returns the current domain and user name.
@@ -65,6 +65,29 @@ The most fun part of today was learning commands in Linux.We learned a lot of ba
 
 ## DAY 3:
 On the third day, We first had our viva for day1 and day2.
+
+### File and Directory Permissions
+- chmod (change mode):  It is used to change the access permissions of files and directories.
+Some of its types are:
+
+| Syntax                | Meaning                                                       |
+|-----------------------|---------------------------------------------------------------|
+| `chmod +x filename.sh`  | Gives permission to **run** the script (makes it executable). |
+| `chmod 444 filename.sh` | Sets file to **read-only** for everyone.                     |
+| `chmod 644 filename.sh` | Gives **read/write** to the owner, **read-only** to others.  |
+
+### Redirection and Pipes
+
+Redirection in Linux is used to **send output to files**, **take input from files**, or **append data** instead of showing it on the screen.
+
+| Type | Meaning                        | Syntax & Example                    |
+|------|--------------------------------|-------------------------------------|
+| `>`  | Write/overwrite to a file      | `echo hi > file.txt`                |
+| `>>` | Append to a file               | `echo hi >> file.txt`               |
+| `<`  | Input redirection (read from a file) | `sort < file.txt`             |
+
+
+
 
 
 
