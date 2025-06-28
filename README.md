@@ -96,6 +96,8 @@ It is commonly used for **filtering and processing data** in a single line.
  2. Multiplication Table
  3. Comparing Two Numbers
     ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20112538.png?raw=true)
+   
+    ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20113028.png?raw=true)
 
 
 
