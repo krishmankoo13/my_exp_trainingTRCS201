@@ -76,7 +76,7 @@ Some of its types are:
 | `chmod 444 filename.sh` | Sets file to **read-only** for everyone.                     |
 | `chmod 644 filename.sh` | Gives **read/write** to the owner, **read-only** to others.  |
 
-### Redirection and Pipes
+### Redirection
 
 Redirection in Linux is used to **send output to files**, **take input from files**, or **append data** instead of showing it on the screen.
 
@@ -86,7 +86,15 @@ Redirection in Linux is used to **send output to files**, **take input from file
 | `>>` | Append to a file               | `echo hi >> file.txt`               |
 | `<`  | Input redirection (read from a file) | `sort < file.txt`             |
 
+### PIPES
 
+The **pipe** symbol (`|`) is used to **connect multiple commands**, where the **output of one command becomes the input of the next**.  
+It is commonly used for **filtering and processing data** in a single line.
+
+### Shell Programming
+ 1. Using Variables
+ 2. Multiplication Table
+ 3. Comparing Two Numbers
 
 
 
