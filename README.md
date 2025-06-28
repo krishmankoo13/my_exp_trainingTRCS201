@@ -91,15 +91,28 @@ Redirection in Linux is used to **send output to files**, **take input from file
 The **pipe** symbol (`|`) is used to **connect multiple commands**, where the **output of one command becomes the input of the next**.  
 It is commonly used for **filtering and processing data** in a single line.
 
-### Shell Programming
- 1. Using Variables
- 2. Multiplication Table
- 3. Comparing Two Numbers
-    ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20112538.png?raw=true)
-   
-    ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20113028.png?raw=true)
+## 🔢 Shell Scripting Examples
 
+---
 
+### 1. 📝 Using Variables
+
+![Using Variables - Part 1](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20114225.png?raw=true)  
+![Using Variables - Part 2](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20113813.png?raw=true)
+
+---
+
+### 2. ✖️ Multiplication Table
+
+![Multiplication Table - Part 1](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20115323.png?raw=true)  
+![Multiplication Table - Part 2](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20115241.png?raw=true)
+
+---
+
+### 3. 🔁 Comparing Two Numbers
+
+![Comparing Two Numbers - Part 1](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20112538.png?raw=true)  
+![Comparing Two Numbers - Part 2](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20113028.png?raw=true)
 
 
 
