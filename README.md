@@ -76,6 +76,19 @@ Some of its types are:
 | `chmod 444 filename.sh` | Sets file to **read-only** for everyone.                     |
 | `chmod 644 filename.sh` | Gives **read/write** to the owner, **read-only** to others.  |
 
+
+- chown (change owner ): It is used to **change the ownership** of files and directories.
+
+Some of its types are:
+
+| Type                           | Meaning                                      | Syntax Example                          |
+|--------------------------------|----------------------------------------------|------------------------------------------|
+| Change Owner                   | Changes only the user (owner)                | `chown krish file.txt`                  |
+| Change Owner and Group         | Changes user and group                       | `chown krish:developers file.txt`       |
+| Change Only Group              | Use empty owner before `:`                   | `chown :developers file.txt`            |
+| Recursive Ownership Change     | Applies changes to all sub-files and folders | `chown -R krish:devs foldername/`       |
+
+
 ### Redirection
 
 Redirection in Linux is used to **send output to files**, **take input from files**, or **append data** instead of showing it on the screen.
