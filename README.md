@@ -129,8 +129,46 @@ It is commonly used for **filtering and processing data** in a single line.
 
 ## DAY 4:
 ### PC Hardware
+
 ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/cpu.jpg?raw=true)
+
+### 🔧 1. Motherboard (Main Circuit Board)
+- It is the central PCB that connects all major components like CPU, RAM, storage, GPU, and power.
+
+---
+
+### Components Found on the Motherboard
+
+- **CPU Socket** – Slot where the processor (CPU) is installed.
+- **RAM Slots** – Used to install RAM (memory) modules.
+- **24-pin and 8-pin Power Connectors** – Supply power to the motherboard and CPU.
+- **SATA Ports** – Connect hard drives and SSDs.
+- **IDE Connector** – Connects older hard drives or optical drives.
+- **AGP/PCI/PCIe Slots** – Allow expansion cards like GPU or sound cards to be installed.
+- **BIOS Chip** – Stores firmware that helps boot the system.
+- **USB Ports** – Connect USB devices such as keyboard, mouse, or pen drives.
+- **Audio, VGA, HDMI, and Modem Ports** – Provide various external connectivity options.
+- **Fan Connector** – Powers and controls system or CPU cooling fans.
+- **Heat Sink Area** – Holds the heat sink for CPU cooling.
+- **CMOS Battery** – Powers the BIOS to retain date, time, and hardware settings when PC is off.
+
 ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/mb.jpg?raw=true)
+
+
+###  Other Key Components Inside the CPU Cabinet
+
+- **Optical Drive** – Reads/writes CDs and DVDs.
+- **Hard Disk Drive (HDD)** – Stores the operating system, files, and programs.
+- **Power Supply Unit (PSU)** – Converts electricity from wall to usable power for components.
+- **Fan** – Keeps the internal temperature low by circulating air.
+- **Connectors** – Provide external connection ports for peripherals like keyboard, mouse, etc.
+- **Expansion Slots** – Allow you to add extra components like a graphics card or network card.
+
+---
+
+**Importance of Cache Memory**
+- Cache memory stores frequently accessed data close to the CPU, allowing faster access than RAM.
+
 
 ### Linux File Compression
 
