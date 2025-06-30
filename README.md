@@ -129,7 +129,8 @@ It is commonly used for **filtering and processing data** in a single line.
 
 ## DAY 4:
 ### PC Hardware
-![image alt]()
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/cpu.jpg?raw=true)
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/mb.jpg?raw=true)
 
 ### Linux File Compression
 
@@ -141,7 +142,28 @@ It is commonly used for **filtering and processing data** in a single line.
 
 
 ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-30%20112658.png?raw=true)
-### Wildcards and Escaping Characters
-![image alt]()
-![image alt]()
-![image alt]()
+
+### Wildcards 
+
+| Wildcard     | One-Line Meaning                                | Syntax Example         | Matches Example Files                  |
+|--------------|--------------------------------------------------|------------------------|----------------------------------------|
+| `*`          | Matches zero or more characters                  | `ls *.txt`             | `notes.txt`, `a.txt`, `123.txt`        |
+| `?`          | Matches exactly one character                    | `ls ?.txt`             | `a.txt`, `1.txt` (not `ab.txt`)        |
+| `[a-z]`      | Matches any **one** character in the range       | `ls file[1-3].txt`     | `file1.txt`, `file2.txt`, `file3.txt`  |
+
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-30%20113327.png?raw=true)
+
+### Escaping Characters
+
+Escape characters are special sequences used to represent characters that cannot be typed or have a special meaning in shell. They are typically used with the `echo -e` command to format output.
+
+| Escape Character | Definition                                | Syntax Example                    | Output Example               |
+|------------------|--------------------------------------------|-----------------------------------|------------------------------|
+| `\n`             | Inserts a new line                         | `echo -e "Line1\nLine2"`          | Line1 <br> Line2             |
+| `\t`             | Inserts a horizontal tab                   | `echo -e "A\tB"`                  | A  B                         |
+| `\\`             | Prints a backslash                         | `echo "\\"`                       | \                            |
+| `\"`             | Prints a double quote inside double quotes | `echo "She said, \"Hi\""`         | She said, "Hi"               |
+| `\'`             | Prints a single quote inside single quotes | `echo 'It'\''s fine'`             | It's fine                    |
+
+
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-30%20114826.png?raw=true)
