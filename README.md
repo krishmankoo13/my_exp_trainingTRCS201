@@ -132,7 +132,15 @@ It is commonly used for **filtering and processing data** in a single line.
 ![image alt]()
 
 ### Linux File Compression
-![image alt]()
+
+| Command      | One-Line Meaning                            | Syntax                  | Example                       |
+|--------------|---------------------------------------------|-------------------------|-------------------------------|
+| `gzip`       | Compresses a file and deletes the original  | `gzip filename`         | `gzip file.txt` → creates `file.txt.gz` and deletes `file.txt` |
+| `gunzip`     | Decompresses a `.gz` file                   | `gunzip filename.gz`    | `gunzip file.txt.gz` → restores `file.txt` and deletes `.gz` |
+| `gzip -k`    | Compresses file but keeps the original file | `gzip -k filename`      | `gzip -k file.txt` → creates `file.txt.gz` and keeps `file.txt` |
+
+
+![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-30%20112658.png?raw=true)
 ### Wildcards and Escaping Characters
 ![image alt]()
 ![image alt]()
