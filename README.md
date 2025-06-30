@@ -127,5 +127,9 @@ It is commonly used for **filtering and processing data** in a single line.
 ![Comparing Two Numbers - Part 1](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20112538.png?raw=true)  
 ![Comparing Two Numbers - Part 2](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-27%20113028.png?raw=true)
 
+## DAY 4:
+### PC Hardware
 
+### Linux File Compression
 
+### Wildcards and Escaping Characters
