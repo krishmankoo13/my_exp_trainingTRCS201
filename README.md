@@ -129,7 +129,11 @@ It is commonly used for **filtering and processing data** in a single line.
 
 ## DAY 4:
 ### PC Hardware
+![image alt]()
 
 ### Linux File Compression
-
+![image alt]()
 ### Wildcards and Escaping Characters
+![image alt]()
+![image alt]()
+![image alt]()
