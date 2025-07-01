@@ -271,6 +271,7 @@ Today we learned about common issues encountered on personal computers and how t
 
 The **Blue Screen of Death (BSOD)** is a critical system error screen displayed by Windows when the operating system can no longer operate safely due to a severe issue. It is also called a **Stop Error** or **bug check**.
 
+![imagealt](https://www.cnet.com/a/img/resize/a75db4f15b0c02ccde4100ed1e26b9606557080a/hub/2025/06/26/f9a73c79-3ee4-4fab-b23a-e6fd8833cee0/blue-screen-of-death-gettyimages-1328389388-1.jpg?auto=webp&fit=crop&height=675&width=1200)
 ###  Why Does BSOD Happen?
 
 BSOD typically occurs due to:
