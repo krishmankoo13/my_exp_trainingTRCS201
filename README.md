@@ -298,7 +298,8 @@ BSOD typically occurs due to:
 2. **Use Reliability Monitor**  
    Open `Reliability Monitor` (search in Start menu) to check system events before the crash.
 
-3. **View Dump File**  
+3. **View Dump File**
+   After a BSOD, Windows creates a dump file that records what happened before the crash.
    Analyze crash dumps stored at:  
    `C:\Windows\Minidump\` using tools like:
    - **BlueScreenView** (NirSoft)
