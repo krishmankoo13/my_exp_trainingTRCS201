@@ -327,3 +327,65 @@ BSOD typically occurs due to:
 - Avoid installing untrusted drivers or registry cleaners.
 - Keep a restore point or full backup before major updates.
 - Ensure proper cooling and power supply to prevent hardware issues.
+
+##  Assignment on BIOS/UEFI Settings and POST Errors
+
+### What is BIOS/UEFI?
+
+- **BIOS (Basic Input/Output System)** and **UEFI (Unified Extensible Firmware Interface)** are low-level firmware interfaces between the computer's hardware and its operating system.
+- BIOS is the **older** system, while UEFI is the **modern standard** in most PCs since 2010.
+- These interfaces allow you to configure hardware settings, boot order, security options, and more.
+
+### Common BIOS/UEFI Settings
+
+| Setting | Description |
+|--------|-------------|
+| **Boot Order** | Determines which device (HDD, SSD, USB) the PC checks first when starting. |
+| **Secure Boot** | Prevents unauthorized OS or bootloaders from loading (enabled in UEFI). |
+| **Virtualization** | Enables support for virtual machines (VT-x, AMD-V). |
+| **XMP/DOCP Profile** | Enables full-speed RAM performance (must be manually enabled in some PCs). |
+| **Fan Control** | Sets custom cooling profiles based on temperature. |
+| **Date/Time** | Sets the system clock — affects OS time if incorrect. |
+| **SATA Mode** | Selects IDE, AHCI, or RAID for hard drive behavior. |
+| **Integrated Peripherals** | Enables/disables onboard devices (e.g., audio, LAN, USB ports). |
+| **Password Setup** | Sets BIOS or boot passwords for security. |
+
+### What is POST?
+
+**POST (Power-On Self Test)** is a diagnostic process run by BIOS/UEFI during startup to check if essential hardware (CPU, RAM, GPU, keyboard, etc.) is working.
+
+If POST fails, it usually halts the boot process and gives error **beeps or messages**.
+
+### Common POST Errors & Beep Codes
+
+| Error / Beep | Meaning | Suggested Fix |
+|--------------|---------|----------------|
+| **No Display / Blank Screen** | GPU or RAM issue | Reseat graphics card and RAM |
+| **Continuous Beeps** | RAM failure | Check RAM sticks or try different slots |
+| **1 Long, 2 Short Beeps** | GPU not detected | Reinsert GPU properly or test another |
+| **Keyboard Not Detected** | Faulty or unplugged keyboard | Try another USB port or replace keyboard |
+| **CMOS Checksum Error** | BIOS settings corrupt | Reset BIOS using Clear CMOS jumper |
+| **Date and Time Reset** | CMOS battery drained | Replace the small coin-cell battery on motherboard |
+
+> Beep codes vary by **BIOS manufacturer** (AMI, Phoenix, Award). Refer to your motherboard manual for exact beep meanings.
+
+
+### How to Access BIOS/UEFI
+
+- Restart your PC and press the correct key during startup:  
+  - **DEL** or **F2** (common for most desktops/laptops)  
+  - **ESC**, **F1**, or **F10** for others  
+- You may also access UEFI through Windows:
+  - Go to **Settings > Update & Security > Recovery > Advanced Startup > Restart Now > UEFI Firmware Settings**
+
+
+### Resetting BIOS/UEFI to Default
+
+If you misconfigured a setting or can’t boot:
+
+- Enter BIOS/UEFI → Choose **"Load Setup Defaults"** or **"Reset to Default"**
+- Or remove the CMOS battery for a few minutes and reinsert it
+- Or use the **Clear CMOS jumper** on the motherboard
+
+
+
