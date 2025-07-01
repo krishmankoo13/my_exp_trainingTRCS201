@@ -266,3 +266,60 @@ Today we learned about common issues encountered on personal computers and how t
 
 - **Low Graphics Performance**  
   Happens due to outdated GPU drivers or background apps using resources. Download latest drivers from NVIDIA/AMD and close all unnecessary apps during usage.
+
+##  What is Blue Screen of Death (BSOD)?
+
+The **Blue Screen of Death (BSOD)** is a critical system error screen displayed by Windows when the operating system can no longer operate safely due to a severe issue. It is also called a **Stop Error** or **bug check**.
+
+###  Why Does BSOD Happen?
+
+BSOD typically occurs due to:
+
+- **Faulty device drivers** (graphics, network, etc.)
+- **Corrupted system files**
+- **Faulty or incompatible hardware** (RAM, hard drive, GPU)
+- **Overheating or power issues**
+- **Malware affecting system-level processes**
+- **Overclocking or BIOS misconfigurations**
+- **Critical kernel or memory management errors**
+
+---
+
+###  How to Analyze a BSOD?
+
+1. **Read the Error Message**  
+   The BSOD screen will display a `STOP CODE` like:  
+   `DRIVER_IRQL_NOT_LESS_OR_EQUAL` or `CRITICAL_PROCESS_DIED`.
+
+2. **Use Reliability Monitor**  
+   Open `Reliability Monitor` (search in Start menu) to check system events before the crash.
+
+3. **View Dump File**  
+   Analyze crash dumps stored at:  
+   `C:\Windows\Minidump\` using tools like:
+   - **BlueScreenView** (NirSoft)
+   - **WinDbg** (Microsoft Debugger)
+   - **WhoCrashed**
+
+4. **Event Viewer**  
+   Use `eventvwr.msc` to see system logs and warnings before the BSOD occurred.
+
+
+### Solutions to Fix BSOD
+
+| Step | Action |
+|------|--------|
+|  1. **Update Drivers** | Go to Device Manager and update all major drivers (especially GPU, chipset, and network). |
+|  2. **Uninstall Recent Software** | Remove any software or drivers recently installed before the BSOD started. |
+|  3. **Run System File Checker** | Run `sfc /scannow` in Command Prompt as administrator to repair corrupted system files. |
+| 4. **Check RAM** | Run **Windows Memory Diagnostic** to check for faulty memory. |
+|  5. **Scan for Malware** | Use Windows Defender or Malwarebytes to check for deep infections. |
+| 6. **Reset Overclocking** | If using overclocked settings, restore BIOS/UEFI to default values. |
+|  7. **Perform a System Restore** | Roll back to a working system point using System Restore. |
+|  8. **Update Windows** | Keep the OS up to date with the latest security and stability patches. |
+
+### Preventive Measures
+
+- Avoid installing untrusted drivers or registry cleaners.
+- Keep a restore point or full backup before major updates.
+- Ensure proper cooling and power supply to prevent hardware issues.
