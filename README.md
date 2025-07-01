@@ -205,3 +205,64 @@ Escape characters are special sequences used to represent characters that cannot
 
 
 ![image alt](https://github.com/krishmankoo13/my_exp_trainingTRCS201/blob/main/Screenshot%202025-06-30%20114826.png?raw=true)
+
+## DAY 5:
+
+## Common PC Problems and Solutions
+
+Today we learned about common issues encountered on personal computers and how to fix them. Each point includes both the cause and the recommended solution.
+
+### PC Maintenance Issues
+
+- **C Drive Full or Slowing Down**  
+  The C drive stores essential system files. Avoid saving personal files here. Free space using Disk Cleanup, uninstall unused programs, or move data to D or E drive. You can also delete temporary files using `%temp%`.
+
+- **PC Running Slowly**  
+  Caused by too many background processes or lack of memory. Open Task Manager to disable startup apps, delete temp files, and remove unused software.
+
+- **Fragmented Hard Drive (HDD only)**  
+  Fragmentation slows down file access. Use "Defragment and Optimize Drives" in Windows to improve speed (note: not needed for SSDs).
+
+- **Too Many Temporary or Junk Files**  
+  These files build up from software usage. Use Disk Cleanup or manually delete files from `%temp%`, `temp`, and `prefetch` folders.
+
+- **System Takes Long to Start**  
+  Caused by unnecessary startup programs and services. Disable unwanted startup applications using Task Manager under the "Startup" tab.
+
+### Software & Application Issues
+
+- **Software Freezes or Crashes**  
+  Can happen due to corrupted installations or insufficient RAM. Force quit using Task Manager and reinstall or update the app.
+
+- **Software Installation Fails**  
+  Common reasons include lack of admin permissions or incompatible versions. Use "Run as administrator" and ensure correct 32/64-bit installer is downloaded.
+
+- **Windows Update Not Working**  
+  Sometimes the update cache is corrupted. Run the Windows Update Troubleshooter or delete contents in `C:\Windows\SoftwareDistribution` folder.
+
+### Hardware & Peripheral Issues
+
+- **Printer Not Responding**  
+  Usually caused by driver problems or connection issues. Restart the printer and PC, check cable or network, and reinstall drivers if needed.
+
+- **Drive Not Detected**  
+  A new or unformatted drive won’t show in Explorer. Go to Disk Management, assign it a drive letter, and format if necessary.
+
+- **Computer Automatically Restarts or Overheats**  
+  Often caused by clogged fans or poor airflow. Clean the dust from CPU fan, vents, and use cooling pads for laptops. Also check if thermal paste needs reapplying.
+
+### Network & Security Issues
+
+- **Internet Not Working Despite Being Connected**  
+  Likely a DNS or driver issue. Restart the router, run Windows Network Troubleshooter, or open Command Prompt and run `ipconfig /flushdns`.
+
+- **Antivirus Slowing Down the System**  
+  Heavy or multiple antivirus programs can reduce speed. Use only one trusted antivirus (like Windows Defender), and disable unnecessary real-time scanning features.
+
+### Account & Graphics Issues
+
+- **Forgotten Login Password**  
+  For local accounts, use Safe Mode or reset via another admin account. For Microsoft accounts, reset using Microsoft’s online password recovery.
+
+- **Low Graphics Performance**  
+  Happens due to outdated GPU drivers or background apps using resources. Download latest drivers from NVIDIA/AMD and close all unnecessary apps during usage.
