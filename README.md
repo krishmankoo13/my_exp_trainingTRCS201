@@ -210,6 +210,9 @@ Escape characters are special sequences used to represent characters that cannot
 
 ## Common PC Problems and Solutions
 
+Help Shortcut:
+Press F1 to open help tool in Windows.
+
 Today we learned about common issues encountered on personal computers and how to fix them. Each point includes both the cause and the recommended solution.
 
 ### PC Maintenance Issues
