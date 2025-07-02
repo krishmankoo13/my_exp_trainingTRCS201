@@ -481,4 +481,55 @@ DISM /Online /Cleanup-Image /RestoreHealth
 7. **Perform System Restore or Reset This PC**
    - Use a restore point or reinstall Windows to eliminate persistent threats
 
+## Networking Cable and Connectors
 
+### Ethernet Cable and RJ45 Connector
+
+- Ethernet cables are used to connect computers, routers, and switches for network communication.
+- The RJ45 connector is a standard 8-pin connector used at both ends of the cable.
+
+---
+
+### RJ45 Color Code (TIA/EIA 568B Standard)
+
+Wiring order from **left to right** (with clip facing down):
+
+`White-Orange, Orange, White-Green, Blue, White-Blue, Green, White-Brown, Brown`
+
+| Pin Number | Wire Color     |
+|------------|----------------|
+| 1          | White-Orange   |
+| 2          | Orange         |
+| 3          | White-Green    |
+| 4          | Blue           |
+| 5          | White-Blue     |
+| 6          | Green          |
+| 7          | White-Brown    |
+| 8          | Brown          |
+
+![IMG_5017](https://github.com/user-attachments/assets/08b58187-9139-421c-a645-0bac8adeed9e)
+
+---
+
+### Crimping Basics
+
+Crimping is the process of attaching an RJ45 connector to the end of a network cable.
+
+**Steps:**
+1. Strip about 1 inch of outer cable jacket.
+2. Untwist and arrange the wires in the correct color order.
+3. Trim all wires to the same length.
+4. Insert wires into the RJ45 connector.
+5. Use a crimping tool to lock the connector in place.
+
+---
+
+### Cable Testing
+
+After crimping, a cable tester is used to check:
+
+- Proper pin connections (1 to 1, 2 to 2, etc.)
+- Continuity across all 8 wires
+- No shorts, opens, or miswiring
+
+A basic tester will light up each pin in sequence to show a successful connection.
