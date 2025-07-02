@@ -388,5 +388,97 @@ If you misconfigured a setting or can’t boot:
 - Or remove the CMOS battery for a few minutes and reinsert it
 - Or use the **Clear CMOS jumper** on the motherboard
 
+## DAY 6:
+## System Troubleshooting Guide
+
+### 1. Safe Mode
+
+Safe Mode is a diagnostic startup mode that loads only essential system files and drivers. It is used to troubleshoot issues that prevent Windows from starting or running properly.
+
+**Types of Safe Mode:**
+- Safe Mode
+- Safe Mode with Networking
+- Safe Mode with Command Prompt
+
+**How to Access:**
+- Press Shift + Restart → Troubleshoot → Advanced Options → Startup Settings
+- Or interrupt boot process 3 times to enter recovery mode
+
+---
+
+### 2. Recovery Tools
+
+Recovery Tools are built-in Windows utilities used to fix, restore, or reset system functionality after crashes, failed updates, or boot errors.
+
+**Key Recovery Options:**
+
+| Tool                    | Description                                                    |
+|-------------------------|----------------------------------------------------------------|
+| System Restore          | Reverts the system to a previously created restore point       |
+| Startup Repair          | Fixes boot-related problems automatically                      |
+| Reset This PC           | Reinstalls Windows with an option to keep or remove user data  |
+| System Image Recovery   | Restores Windows using a full system image backup              |
+| Command Prompt          | Allows advanced troubleshooting using terminal commands        |
+
+**Access via:**  
+Settings → Recovery → Advanced Startup  
+Or press F11/Shift + Restart during boot
+
+---
+
+### 3. OS Repair (Operating System Repair)
+
+OS repair involves fixing core system files and configurations to restore normal Windows operations.
+
+**Common Repair Methods:**
+
+| Method               | Description                                                      |
+|----------------------|------------------------------------------------------------------|
+| sfc /scannow         | Scans and repairs corrupted system files                         |
+| DISM /RestoreHealth  | Repairs the Windows image if SFC is not sufficient               |
+| Startup Repair       | Automatically fixes boot-related files                           |
+| Reset This PC        | Reinstalls Windows while offering data preservation options      |
+
+**Commands:**
+sfc /scannow
+DISM /Online /Cleanup-Image /RestoreHealth
+
+## Virus and Malware
+
+### Symptoms of Infection
+
+- System becomes slow or unresponsive
+- Frequent crashes or freezes
+- Unexpected pop-ups or ads appear
+- Antivirus software is disabled automatically
+- Unknown programs start running or installed
+- Files or folders are missing, renamed, or encrypted
+- High CPU, memory, or disk usage without visible cause
+- Browser redirects to unknown websites or search engines
+
+---
+
+### Basic Malware Removal Steps
+
+1. **Boot into Safe Mode with Networking**
+   - Press Shift + Restart → Troubleshoot → Advanced Options → Startup Settings
+
+2. **Run Full System Scans**
+   - Use Windows Defender or a trusted tool like Malwarebytes
+
+3. **Uninstall Suspicious Applications**
+   - Go to Control Panel → Programs → Uninstall unknown software
+
+4. **Disable Unwanted Startup Programs**
+   - Open Task Manager → Startup tab → Disable unknown entries
+
+5. **Reset Browsers**
+   - Remove unknown extensions and reset settings in Chrome, Firefox, etc.
+
+6. **Review Scheduled Tasks and Services**
+   - Use Task Scheduler and `services.msc` to identify unusual entries
+
+7. **Perform System Restore or Reset This PC**
+   - Use a restore point or reinstall Windows to eliminate persistent threats
 
 
