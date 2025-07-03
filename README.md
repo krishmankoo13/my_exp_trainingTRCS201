@@ -611,36 +611,44 @@ An **IP address (Internet Protocol address)** is a unique identifier assigned to
 - **Default Gateway**: A router that connects a local network to external networks (like the internet).
 - **CIDR (Classless Inter-Domain Routing)**: A method of allocating IP addresses and routing that replaces classful addressing (e.g., `192.168.1.0/24`).
 
+## IP Address Subnetting Calculation
+
+**Given IP Address**: `205.150.65.0/26`  
+**CIDR Class**: Class C (`/26` falls under Class C range)
+
 ---
 
-## 🧠 IP Address Subnetting Numerical
+1. Subnet Mask:
+- CIDR `/26` means 26 bits are used for the network.
+- Binary form: `11111111.11111111.11111111.11000000`
+- Convert `11000000` (last octet) to decimal:
+  - `2⁷ + 2⁶ = 128 + 64 = 192`
+- **Subnet Mask**: `255.255.255.192`
 
-**Given**: `205.150.65.0/26`
+---
 
-### 1. Subnet Mask:
-CIDR `/26` = `255.255.255.192`
+2. Number of Subnets:
+- Default subnet bits for Class C = 24
+- Borrowed subnet bits = `26 - 24 = 2`
+- Number of subnets = `2² = 4`
 
-### 2. Number of Subnets:
-- Since we borrow 2 bits from the host portion (for /26 from /24),
-- Number of subnets = 2² = **4 subnets**
+---
+3. Number of Hosts:
+- Host bits = `32 - 26 = 6`
+- Number of hosts per subnet = `2⁶ - 2 = 64 - 2 = 62`
+  - (Subtracting 2 for network and broadcast addresses)
 
-### 3. Number of Hosts per Subnet:
-- Host bits = 6 → 2⁶ = 64 addresses
-- Usable = 64 - 2 = **62 hosts per subnet**
+---
 
-### 4. Network IPs:
-Dividing `205.150.65.0/24` into 4 subnets of 64 IPs each:
+ 4. Network IP:
+- Perform AND operation between:
+  - IP Address: `205.150.65.0`
+  - Subnet Mask: `255.255.255.192`
+- **Network IP**: `205.150.65.0` (already aligned)
 
-| Subnet | Network IP      | Broadcast IP    |
-|--------|------------------|-----------------|
-| 1      | 205.150.65.0     | 205.150.65.63   |
-| 2      | 205.150.65.64    | 205.150.65.127  |
-| 3      | 205.150.65.128   | 205.150.65.191  |
-| 4      | 205.150.65.192   | 205.150.65.255  |
+---
 
-So, the **first subnet's** details:
-
-- **Network IP**: `205.150.65.0`  
+5. Broadcast IP:
+- Add 62 to the network address:
 - **Broadcast IP**: `205.150.65.63`
 
----
