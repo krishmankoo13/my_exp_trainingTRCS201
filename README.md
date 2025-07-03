@@ -533,3 +533,114 @@ After crimping, a cable tester is used to check:
 - No shorts, opens, or miswiring
 
 A basic tester will light up each pin in sequence to show a successful connection.
+
+## DAY 7:
+
+## What is Networking?
+Networking is the practice of connecting computers and other devices together to share resources, data, and applications. It allows communication between devices over wired or wireless media.
+
+---
+
+## 🖥️ Basic Networking Components
+
+- **Host**: Any device connected to a network (e.g., computer, phone).
+- **Server**: A device or program that provides services to other devices (clients).
+- **Client**: A device or software that requests services from a server.
+- **Network**: A group of interconnected devices that communicate and share data.
+
+![IMG_5033](https://github.com/user-attachments/assets/a95efc68-c673-4472-95e9-72910f91cf5b)
+
+
+## 🌐 IP Address
+
+An **IP address (Internet Protocol address)** is a unique identifier assigned to each device on a network to enable communication.
+
+### 🔍 Properties of IP Address
+- Unique for each device
+- Logical address (not hardware-based)
+- Consists of Network ID and Host ID
+
+### 🔄 Types of IP Addresses
+
+| Type    | Description                        | Example           |
+|---------|------------------------------------|-------------------|
+| Public  | Globally unique, used on the internet | `8.8.8.8`         |
+| Private | Used within local networks         | `192.168.1.1`     |
+
+---
+
+## 🧮 IPv4 vs IPv6
+
+| Feature       | IPv4                     | IPv6                              |
+|---------------|--------------------------|-----------------------------------|
+| Address Length| 32 bits (4 bytes)        | 128 bits (16 bytes)               |
+| Notation      | Decimal (e.g., 192.168.0.1) | Hexadecimal (e.g., 2001:0db8::1)  |
+| Address Space | ~4.3 billion addresses   | ~340 undecillion addresses        |
+| Developed In  | 1981                     | 1998                              |
+
+---
+
+## 🧾 Classful Addressing Table
+
+| Class | IP Range         | Default Subnet Mask | Usage               |
+|-------|------------------|---------------------|---------------------|
+| A     | 1.0.0.0 – 126.0.0.0 | 255.0.0.0           | Large networks      |
+| B     | 128.0.0.0 – 191.255.0.0 | 255.255.0.0     | Medium networks     |
+| C     | 192.0.0.0 – 223.255.255.0 | 255.255.255.0 | Small networks      |
+| D     | 224.0.0.0 – 239.255.255.255 | N/A         | Multicast           |
+| E     | 240.0.0.0 – 255.255.255.255 | N/A         | Experimental        |
+
+![IMG_5034](https://github.com/user-attachments/assets/e2de70e4-7aae-4fba-a804-7a2c167b7a28)
+
+
+## 📡 Transmission Types
+
+| Type       | Description                                     |
+|------------|-------------------------------------------------|
+| Unicast    | One-to-one communication                        |
+| Broadcast  | One-to-all devices in a network                 |
+| Multicast  | One-to-many (specific group of receivers)       |
+
+---
+
+## 📚 Key Terms
+
+- **Subnetting**: Dividing a large network into smaller subnetworks to improve management and efficiency.
+- **DNS (Domain Name System)**: Translates domain names (e.g., google.com) into IP addresses.
+- **MAC Address (Media Access Control)**: Hardware address unique to each network interface card.
+- **Default Gateway**: A router that connects a local network to external networks (like the internet).
+- **CIDR (Classless Inter-Domain Routing)**: A method of allocating IP addresses and routing that replaces classful addressing (e.g., `192.168.1.0/24`).
+
+---
+
+## 🧠 IP Address Subnetting Numerical
+
+**Given**: `205.150.65.0/26`
+
+### 1. Subnet Mask:
+CIDR `/26` = `255.255.255.192`
+
+### 2. Number of Subnets:
+- Since we borrow 2 bits from the host portion (for /26 from /24),
+- Number of subnets = 2² = **4 subnets**
+
+### 3. Number of Hosts per Subnet:
+- Host bits = 6 → 2⁶ = 64 addresses
+- Usable = 64 - 2 = **62 hosts per subnet**
+
+### 4. Network IPs:
+Dividing `205.150.65.0/24` into 4 subnets of 64 IPs each:
+
+| Subnet | Network IP      | Broadcast IP    |
+|--------|------------------|-----------------|
+| 1      | 205.150.65.0     | 205.150.65.63   |
+| 2      | 205.150.65.64    | 205.150.65.127  |
+| 3      | 205.150.65.128   | 205.150.65.191  |
+| 4      | 205.150.65.192   | 205.150.65.255  |
+
+So, the **first subnet's** details:
+
+- **Network IP**: `205.150.65.0`  
+- **Broadcast IP**: `205.150.65.63`
+
+---
