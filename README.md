@@ -651,4 +651,77 @@ An **IP address (Internet Protocol address)** is a unique identifier assigned to
 5. Broadcast IP:
 - Add 62 to the network address:
 - **Broadcast IP**: `205.150.65.63`
+- 
+
+## DAY 8:
+# Networking Commands and Concepts
+
+---
+
+## DHCP (Dynamic Host Configuration Protocol)
+
+DHCP is a network protocol that automatically assigns IP addresses and other network configuration settings to devices in a network. It eliminates the need for manual IP configuration and ensures each device receives a unique IP address within the network.
+
+---
+
+## Common Network Commands
+
+### 1. ping
+
+**Simple Meaning**: Used to check if another device (website, server, or computer) is reachable from your system. It's like asking, "Are you there?" over the network.
+
+**Technical Meaning**: The `ping` command sends ICMP (Internet Control Message Protocol) Echo Request packets to a target host and waits for a reply to confirm connectivity.
+
+- **Syntax**:  ping website_name
+
+
+- **To stop the command**: Press `Ctrl + C` in the terminal or command prompt.
+
+---
+
+### Loopback Address (127.0.0.1)
+
+The IP address `127.0.0.1` always refers to the local computer (your own machine). It is used to test internal networking or TCP/IP configuration.
+
+**Analogy**: Like sending a letter to your own address to test if the mailbox is working.
+
+---
+
+### 2. traceroute / tracert
+
+**Purpose**: Displays the route taken by data packets from your system to a destination server or website, showing each router (hop) it passes through along the way.
+
+- **Command for windows**:tracert [hostname or IP address]
+
+
+**Note**: Asterisks (`* * *`) in the output mean the router did not respond at that hop.
+
+---
+
+### 3. ipconfig / ifconfig
+
+**ipconfig (Windows)**: Displays the current network configuration, including IP address, subnet mask, default gateway, and DNS settings.
+
+- **Syntax**:ipconfig
+
+
+**ifconfig (macOS/Linux)**: Used to configure and display network interface parameters.
+
+---
+
+## Differences Between LAN, WAN, Wi-Fi, and Ethernet
+
+| Term      | Description                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| **LAN**   | Local Area Network; connects devices within a limited area like a home or office. |
+| **WAN**   | Wide Area Network; connects networks over large geographical areas, like the internet. |
+| **Wi-Fi** | Wireless technology that allows devices to connect to a network without physical cables. |
+| **Ethernet** | Wired network technology using cables (usually with RJ-45 connectors) for stable connections. |
+
+- **LAN vs WAN**: LAN is local and private, while WAN is broad and public (e.g., the internet).
+- **Wi-Fi vs Ethernet**: Wi-Fi offers convenience and mobility; Ethernet provides faster and more stable connections.
+
+---
+
+
 
