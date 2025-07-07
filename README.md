@@ -723,5 +723,62 @@ The IP address `127.0.0.1` always refers to the local computer (your own machine
 
 ---
 
+### DAY 9:
+
+### 📄 Introduction to HTML
+
+### 🌐 What is HTML?
+
+**HTML (HyperText Markup Language)** is the standard language used to create web pages. It defines the structure and layout of a webpage using a system of elements enclosed in tags (e.g., `<p>`, `<h1>`, `<div>`, etc.).
+
+HTML tells the browser **what** content to display, not **how** to style it (that’s what CSS is for).
+
+---
+
+### 🧠 How Browsers Render HTML
+
+When you open a website:
+
+1. **Browser requests the HTML** file from a server.
+2. The HTML is parsed **top to bottom** by the browser’s rendering engine.
+3. The browser builds the **DOM (Document Object Model)** – a tree-like structure of all elements.
+4. It renders content **in order**, applies CSS styles, and then runs JavaScript (if present).
+5. Finally, the formatted webpage is displayed to the user.
+
+---
+
+### 🧱 Basic Structure of an HTML Document
+
+Every HTML page follows a basic structure:
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Main Heading</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+
+
+### 🧱 Structure of an HTML Document
+
+| Section        | Tag(s) Used            | Purpose                                                                 |
+|----------------|------------------------|-------------------------------------------------------------------------|
+| Document Type  | `<!DOCTYPE html>`      | Declares the HTML version (HTML5), helps the browser render correctly. |
+| Root Element   | `<html>`               | Encloses the entire HTML document.                                     |
+| Head Section   | `<head>`               | Contains metadata, links to stylesheets, and scripts.                  |
+| Page Title     | `<title>`              | Sets the title of the webpage shown in the browser tab.                |
+| Body Section   | `<body>`               | Contains all the visible content (text, images, links, etc.).          |
+| Headings       | `<h1>` to `<h6>`       | Define headings from most to least important.                          |
+| Paragraph      | `<p>`                  | Adds a block of text.                                                  |
+| Link           | `<a>`                  | Creates a hyperlink to another page or site.                           |
+| Image          | `<img>`                | Embeds an image.                                                       |
+| Container      | `<div>` / `<span>`     | Group or style sections of content.                                    |
+
+
 
 
