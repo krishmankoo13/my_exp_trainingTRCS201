@@ -751,7 +751,7 @@ When you open a website:
 
 Every HTML page follows a basic structure:
 
-
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -763,7 +763,7 @@ Every HTML page follows a basic structure:
   </body>
 </html>
 
-
+```
 ### 🧱 Structure of an HTML Document
 
 | Section        | Tag(s) Used            | Purpose                                                                 |
