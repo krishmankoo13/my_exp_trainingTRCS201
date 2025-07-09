@@ -778,7 +778,49 @@ Every HTML page follows a basic structure:
 | Link           | `<a>`                  | Creates a hyperlink to another page or site.                           |
 | Image          | `<img>`                | Embeds an image.                                                       |
 | Container      | `<div>` / `<span>`     | Group or style sections of content.                                    |
+## DAY 10:
+### HTML Tags: Headings, Paragraphs, Lists, Links, Images:
 
+###  Headings (`<h1>` to `<h6>`)
+
+Headings define titles or section headers. `<h1>` is the most important (largest), and `<h6>` is the least important (smallest).
+
+```html
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<h3>Section Heading</h3>
+<h4>Minor Heading</h4>
+<h5>Smaller Heading</h5>
+<h6>Smallest Heading</h6>
+
+```
+###  Paragraphs (<p>)
+Paragraphs are used for blocks of text.
+```html
+<p>This is a paragraph of text displayed on the webpage.</p>
+
+```
+
+### Lists
+
+Displays items in bullet format.
+```html
+<ul>
+  <li>Item One</li>
+  <li>Item Two</li>
+  <li>Item Three</li>
+</ul>
+```
+### Links(<a>)
+Used to create hyperlinks to other pages or websites.
+```html
+<a href="https://www.example.com">Visit Example</a>
+```
+### Images(<img>)
+Used to embed images into a web page.
+```html
+<img src="image.jpg" alt="Description of image">
+```
 
 
 
