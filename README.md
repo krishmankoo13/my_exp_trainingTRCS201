@@ -781,7 +781,7 @@ Every HTML page follows a basic structure:
 ## DAY 10:
 ### HTML Tags: Headings, Paragraphs, Lists, Links, Images:
 
-###  Headings (`<h1>` to `<h6>`)
+###  Headings 
 
 Headings define titles or section headers. `<h1>` is the most important (largest), and `<h6>` is the least important (smallest).
 
@@ -794,7 +794,7 @@ Headings define titles or section headers. `<h1>` is the most important (largest
 <h6>Smallest Heading</h6>
 
 ```
-###  Paragraphs (<p>)
+###  Paragraphs 
 Paragraphs are used for blocks of text.
 ```html
 <p>This is a paragraph of text displayed on the webpage.</p>
@@ -811,12 +811,12 @@ Displays items in bullet format.
   <li>Item Three</li>
 </ul>
 ```
-### Links(<a>)
+### Links
 Used to create hyperlinks to other pages or websites.
 ```html
 <a href="https://www.example.com">Visit Example</a>
 ```
-### Images(<img>)
+### Images
 Used to embed images into a web page.
 ```html
 <img src="image.jpg" alt="Description of image">
