@@ -768,16 +768,17 @@ Every HTML page follows a basic structure:
 
 | Section        | Tag(s) Used            | Purpose                                                                 |
 |----------------|------------------------|-------------------------------------------------------------------------|
-| Document Type  | `<!DOCTYPE html>`      | Declares the HTML version (HTML5), helps the browser render correctly. |
-| Root Element   | `<html>`               | Encloses the entire HTML document.                                     |
-| Head Section   | `<head>`               | Contains metadata, links to stylesheets, and scripts.                  |
-| Page Title     | `<title>`              | Sets the title of the webpage shown in the browser tab.                |
-| Body Section   | `<body>`               | Contains all the visible content (text, images, links, etc.).          |
-| Headings       | `<h1>` to `<h6>`       | Define headings from most to least important.                          |
-| Paragraph      | `<p>`                  | Adds a block of text.                                                  |
-| Link           | `<a>`                  | Creates a hyperlink to another page or site.                           |
-| Image          | `<img>`                | Embeds an image.                                                       |
-| Container      | `<div>` / `<span>`     | Group or style sections of content.                                    |
+| Document Type  | `<!DOCTYPE html>`      | Declares the HTML version (HTML5), helps the browser render correctly.  |
+| Root Element   | `<html>`               | Encloses the entire HTML document.                                      |
+| Head Section   | `<head>`               | Contains metadata, links to stylesheets, and scripts.                   |
+| Page Title     | `<title>`              | Sets the title of the webpage shown in the browser tab.                 |
+| Body Section   | `<body>`               | Contains all the visible content (text, images, links, etc.).           |
+| Headings       | `<h1>` to `<h6>`       | Define headings from most to least important.                           |
+| Paragraph      | `<p>`                  | Adds a block of text.                                                   |
+| Link           | `<a>`                  | Creates a hyperlink to another page or site.                            |
+| Image          | `<img>`                | Embeds an image.                                                        |
+| Container      | `<div>` / `<span>`     | Group or style sections of content.                                     |
+
 ## DAY 10:
 ### HTML Tags: Headings, Paragraphs, Lists, Links, Images:
 
