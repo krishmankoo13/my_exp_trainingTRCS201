@@ -832,7 +832,52 @@ Used to embed images into a web page.
 ![IMG_5086](https://github.com/user-attachments/assets/e99fdbdd-69c8-4e5a-9643-f95a66a6560c)
 
 ## DAY 11:
+### Forms and Input Types:
+HTML forms are used to collect user input. A form is defined using the 'form' tag and includes various input elements like text fields, checkboxes, radio buttons, and submit button.
 
+```html
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+```
+![IMG_5083](https://github.com/user-attachments/assets/93fcfbfb-fc14-4855-a6dc-df658d47dc7b)
+
+### Common HTML Input Types
+
+| Input Type   | Description                                   | Example Code                                           |
+|--------------|-----------------------------------------------|--------------------------------------------------------|
+| `text`       | Single-line plain text input                  | `<input type="text" name="username">`                 |
+| `password`   | Masks input for passwords                     | `<input type="password" name="pass">`                 |
+| `email`      | Validates email format                        | `<input type="email" name="user_email">`              |
+| `number`     | Accepts numeric input                         | `<input type="number" name="age">`                    |
+| `radio`      | Select one option from a group                | `<input type="radio" name="gender" value="male">`     |
+| `checkbox`   | Select one or multiple options                | `<input type="checkbox" name="subscribe">`            |
+| `submit`     | Button to submit the form                     | `<input type="submit" value="Submit">`                |
+| `reset`      | Button to reset/clear form fields             | `<input type="reset" value="Clear">`                  |
+| `date`       | Select a date from a calendar popup           | `<input type="date" name="dob">`                      |
+| `file`       | Upload a file                                 | `<input type="file" name="resume">`                   |
+| `tel`        | Input for phone numbers                       | `<input type="tel" name="phone">`                     |
+| `url`        | Input for website URLs                        | `<input type="url" name="website">`                   |
+
+### Common Semantic HTML Tags
+
+Semantic tags in HTML5 provide meaning to the content enclosed within them. These tags help browsers, developers, and assistive technologies understand the structure and role of each section on a webpage.
+
+| Tag        | Purpose                                        | Example Usage                                      |
+|------------|------------------------------------------------|---------------------------------------------------|
+| `<header>` | Represents the top section of a page or section, often containing titles, logos, or navigation. | `<header><h1>My Website</h1></header>` |
+| `<nav>`    | Contains navigation links.                     | `<nav><a href="#">Home</a> <a href="#">About</a></nav>` |
+| `<section>`| Defines a standalone section of content, usually with a heading. | `<section><h2>Features</h2><p>...</p></section>` |
+| `<article>`| Represents independent content such as a blog post, article, or news item. | `<article><h2>Blog Title</h2><p>...</p></article>` |
+| `<aside>`  | Contains content related to the main content, like sidebars or tips. | `<aside><p>Related articles</p></aside>` |
+| `<main>`   | Represents the main content of the document, unique to the page. | `<main><h2>Welcome</h2><p>Main content here</p></main>` |
+| `<footer>` | Defines the bottom section of a page or section, usually with contact info or copyright. | `<footer><p>© 2025 All rights reserved</p></footer>` |
 
 
 
