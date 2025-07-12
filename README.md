@@ -879,5 +879,66 @@ Semantic tags in HTML5 provide meaning to the content enclosed within them. Thes
 | `<main>`   | Represents the main content of the document, unique to the page. | `<main><h2>Welcome</h2><p>Main content here</p></main>` |
 | `<footer>` | Defines the bottom section of a page or section, usually with contact info or copyright. | `<footer><p>© 2025 All rights reserved</p></footer>` |
 
+## DAY 12:
 
+### Basic Styling Using Inline and Internal CSS
 
+CSS (Cascading Style Sheets) is used to add style and design to HTML elements. It controls how content appears in terms of colors, fonts, layout, spacing, and more.
+
+---
+
+### What is CSS?
+
+CSS separates content (HTML) from presentation (style). This improves code readability, reusability, and makes websites easier to maintain.
+
+---
+
+### Types of CSS
+
+There are three ways to apply CSS to an HTML page:
+
+1. **Inline CSS** – Styles applied directly to HTML elements using the `style` attribute.
+2. **Internal CSS** – Styles written inside a `<style>` tag in the HTML `<head>`.
+3. **External CSS** – Styles stored in a separate `.css` file (not covered here).
+
+---
+
+### Inline CSS
+
+Inline CSS is written inside the HTML tag using the `style` attribute.
+
+### Example:
+
+```html
+<p style="color: red; font-size: 18px;">This is a red paragraph styled with inline CSS.</p>
+```
+
+### Internal CSS
+Internal CSS is written inside the <style> element within the <head> of an HTML document. It allows styling multiple elements in a centralized place (within one HTML file).
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    p {
+      color: green;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page</h1>
+  <p>This paragraph is styled using internal CSS.</p>
+</body>
+</html>
+```
