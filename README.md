@@ -795,12 +795,15 @@ Headings define titles or section headers. `<h1>` is the most important (largest
 <h6>Smallest Heading</h6>
 
 ```
+![IMG_5084](https://github.com/user-attachments/assets/51a9293b-8072-4c73-bde5-7f84818edad2)
+
 ###  Paragraphs 
 Paragraphs are used for blocks of text.
 ```html
 <p>This is a paragraph of text displayed on the webpage.</p>
 
 ```
+![IMG_5085](https://github.com/user-attachments/assets/37ce22f8-fc71-485b-9e4d-2edbd4b272b0)
 
 ### Lists
 
@@ -812,16 +815,21 @@ Displays items in bullet format.
   <li>Item Three</li>
 </ul>
 ```
+![IMG_5090](https://github.com/user-attachments/assets/2268a2b3-3078-45f0-9b36-ab812abfdbeb)
+
 ### Links
 Used to create hyperlinks to other pages or websites.
 ```html
 <a href="https://www.example.com">Visit Example</a>
 ```
+![IMG_5088](https://github.com/user-attachments/assets/f409b318-7f89-471e-b9a0-9a0f8c6dbc06)
+
 ### Images
 Used to embed images into a web page.
 ```html
 <img src="image.jpg" alt="Description of image">
 ```
+![IMG_5086](https://github.com/user-attachments/assets/e99fdbdd-69c8-4e5a-9643-f95a66a6560c)
 
 ## DAY 11:
 
