@@ -944,3 +944,48 @@ Internal CSS is written inside the <style> element within the <head> of an HTML 
 </html>
 ```
 <img width="924" height="190" alt="Screenshot 2025-07-14 090210" src="https://github.com/user-attachments/assets/4790cd0b-f3ad-483b-b2bf-f9f76cd50920" />
+
+## DAY 13:
+### What is Git
+Git is a distributed version control system (DVCS) used to track changes in source code during software development. It allows multiple developers to work on a project simultaneously, keeping a complete history of every change made to the codebase. Git was created by Linus Torvalds in 2005 to manage the development of the Linux kernel.
+
+### What is Version Control
+Version Control is a system that records changes to files over time so that you can:
+
+-Revert to previous versions
+-Track who made what changes and when
+-Collaborate with others without overwriting work
+-It is especially useful in software development but also in writing, design, and any work involving evolving files.
+
+### Git Architecture
+
+Git is a **Distributed Version Control System (DVCS)** that uses a three-layer architecture to manage source code efficiently.
+
+1. Working Directory (Working Tree)
+
+- This is the place where you **edit, create, or delete** files.
+- Represents the **current version** of the project visible to you.
+- Changes here are **not tracked** by Git until they are added to the staging area.
+
+2. Staging Area (Index)
+
+- A temporary area to **prepare changes** before making a commit.
+- Use `git add` to move changes here:
+  ```bash
+  git add filename
+  ```
+
+3. Repository
+Located in the .git folder.
+Stores:
+-All commits
+-Branches and tags
+-Full version history
+You commit to this area using:
+```
+git commit -m "Your message"
+```
+<img width="275" height="183" alt="git arc" src="https://github.com/user-attachments/assets/01f5d411-d3bc-4591-9a1d-9afe207fa8cb" />
+
+
+
