@@ -987,5 +987,15 @@ git commit -m "Your message"
 ```
 <img width="275" height="183" alt="git arc" src="https://github.com/user-attachments/assets/01f5d411-d3bc-4591-9a1d-9afe207fa8cb" />
 
+### Creating a new repository
+<img width="1893" height="764" alt="Screenshot 2025-07-11 091249" src="https://github.com/user-attachments/assets/431bed36-9612-4e37-8845-04b5b32c7395" />
+<img width="1366" height="905" alt="Screenshot 2025-07-11 091102" src="https://github.com/user-attachments/assets/1f4ee236-f63e-4e2a-8029-8e1041ac5db0" />
+<img width="1919" height="914" alt="Screenshot 2025-07-11 091025" src="https://github.com/user-attachments/assets/1fc8b8df-a42f-46fa-814d-a09b77571351" />
+
+### Git Commands
+<img width="707" height="564" alt="Screenshot 2025-07-11 100049" src="https://github.com/user-attachments/assets/34651c00-7e1b-4082-a8ac-7f4b2738e306" />
+
+
+
 
 
