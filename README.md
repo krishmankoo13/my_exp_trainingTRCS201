@@ -912,6 +912,7 @@ Inline CSS is written inside the HTML tag using the `style` attribute.
 ```html
 <p style="color: red; font-size: 18px;">This is a red paragraph styled with inline CSS.</p>
 ```
+<img width="482" height="107" alt="Screenshot 2025-07-14 090104 (2)" src="https://github.com/user-attachments/assets/0550c51b-8bb4-47b5-a5c1-a4b6fc02b4e1" />
 
 ### Internal CSS
 Internal CSS is written inside the <style> element within the <head> of an HTML document. It allows styling multiple elements in a centralized place (within one HTML file).
@@ -942,3 +943,4 @@ Internal CSS is written inside the <style> element within the <head> of an HTML 
 </body>
 </html>
 ```
+<img width="924" height="190" alt="Screenshot 2025-07-14 090210" src="https://github.com/user-attachments/assets/4790cd0b-f3ad-483b-b2bf-f9f76cd50920" />
